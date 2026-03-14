@@ -2,7 +2,7 @@ language = "c"
 entrypoint = "main.c"
 
 [run]
-args = ["gcc", "-o", "labrabota2-1", "/home/runner/lab2-task1-gr14-bezirgena84/src/main.c", "&&", "./labrabota2-1"]
+args = ["gcc", "-o", "labrabota2-1", "/home/runner/workspace/src/main.c", "&&", "./labrabota2-1"]
 
 [nix]
 channel = "stable-23_11"
