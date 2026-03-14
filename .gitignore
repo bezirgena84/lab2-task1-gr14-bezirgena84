@@ -1,3 +1,8 @@
+# Игнорируем скомпилированные файлы
+labrabota2-1
+*.o
+*.exe
+
 # Prerequisites
 *.d
 

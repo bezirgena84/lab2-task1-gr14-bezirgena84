@@ -1,2 +1,8 @@
 language = "c"
-run = "gcc -o hello /home/runner/project2/src/hello.c"
+entrypoint = "main.c"
+
+[run]
+args = ["gcc", "-o", "labrabota2-1", "/home/runner/lab2-task1-gr14-bezirgena84/src/main.c", "&&", "./labrabota2-1"]
+
+[nix]
+channel = "stable-23_11"
